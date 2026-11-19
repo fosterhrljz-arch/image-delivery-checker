@@ -1,0 +1,8 @@
+PASS: Offline file URL: identity, visible content and empty state
+PASS: Six decoded samples agree with README, manifest and actual file bytes
+PASS: Original presets and documented 2-to-4 MB edit produce expected outcomes
+PASS: Actual filtered CSV download contains all six correct records
+PASS: Desktop/mobile screenshots and five viewport overflow checks
+PASS: All six supplied invalid/unsupported files fail with the documented reasons
+PASS: No app page errors, console warnings/errors or HTTP requests
+7 groups passed; 0 console/runtime errors; 0 HTTP requests.

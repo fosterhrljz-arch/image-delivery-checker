@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-06",
+  "browser": "Chrome 156.0.8078.80",
+  "playwright": "1.62.1",
+  "node": "v24.16.0",
+  "url": "file:///C:/Users/TTK/Documents/ChatGPT/Session/image-delivery-checker/index.html",
+  "offline": true,
+  "viewports": [
+    320,
+    390,
+    768,
+    1024,
+    1536
+  ],
+  "tests": [
+    {
+      "name": "Offline file URL: identity, visible content and empty state",
+      "status": "PASS"
+    },
+    {
+      "name": "Six decoded samples agree with README, manifest and actual file bytes",
+      "status": "PASS"
+    },
+    {
+      "name": "Original presets and documented 2-to-4 MB edit produce expected outcomes",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual filtered CSV download contains all six correct records",
+      "status": "PASS"
+    },
+    {
+      "name": "Desktop/mobile screenshots and five viewport overflow checks",
+      "status": "PASS"
+    },
+    {
+      "name": "All six supplied invalid/unsupported files fail with the documented reasons",
+      "status": "PASS"
+    },
+    {
+      "name": "No app page errors, console warnings/errors or HTTP requests",
+      "status": "PASS"
+    }
+  ],
+  "console": [],
+  "httpRequests": []
+}

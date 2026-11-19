@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: all example specifications are valid and independent
+ok 1 - all example specifications are valid and independent
+  ---
+  duration_ms: 1.1841
+  type: 'test'
+  ...
+# Subtest: exact dimension rule includes a one-pixel failure
+ok 2 - exact dimension rule includes a one-pixel failure
+  ---
+  duration_ms: 1.0219
+  type: 'test'
+  ...
+# Subtest: minimum dimensions compare both axes independently
+ok 3 - minimum dimensions compare both axes independently
+  ---
+  duration_ms: 0.1622
+  type: 'test'
+  ...
+# Subtest: byte limit is inclusive and one byte over fails
+ok 4 - byte limit is inclusive and one byte over fails
+  ---
+  duration_ms: 14.1295
+  type: 'test'
+  ...
+# Subtest: decimal MB becomes exact integer bytes
+ok 5 - decimal MB becomes exact integer bytes
+  ---
+  duration_ms: 0.2479
+  type: 'test'
+  ...
+# Subtest: a disallowed supported format is explained
+ok 6 - a disallowed supported format is explained
+  ---
+  duration_ms: 0.1537
+  type: 'test'
+  ...
+# Subtest: dimension, format and size failures are all retained
+ok 7 - dimension, format and size failures are all retained
+  ---
+  duration_ms: 0.2045
+  type: 'test'
+  ...
+# Subtest: decode errors always fail, including small files
+ok 8 - decode errors always fail, including small files
+  ---
+  duration_ms: 0.1079
+  type: 'test'
+  ...
+# Subtest: real sample signatures and documented outcomes match
+ok 9 - real sample signatures and documented outcomes match
+  ---
+  duration_ms: 3.8866
+  type: 'test'
+  ...
+# Subtest: unrecognized data and empty data cannot masquerade as JPG
+ok 10 - unrecognized data and empty data cannot masquerade as JPG
+  ---
+  duration_ms: 0.2084
+  type: 'test'
+  ...
+# Subtest: invalid dimensions are rejected
+ok 11 - invalid dimensions are rejected
+  ---
+  duration_ms: 0.157
+  type: 'test'
+  ...
+# Subtest: invalid file limits, names and no allowed formats are rejected
+ok 12 - invalid file limits, names and no allowed formats are rejected
+  ---
+  duration_ms: 0.1584
+  type: 'test'
+  ...
+# Subtest: CSV escapes commas, double quotes and embedded newlines
+ok 13 - CSV escapes commas, double quotes and embedded newlines
+  ---
+  duration_ms: 0.4643
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula-like and control-prefixed values
+ok 14 - CSV neutralizes formula-like and control-prefixed values
+  ---
+  duration_ms: 0.1638
+  type: 'test'
+  ...
+# Subtest: CSV contains all requirements, raw bytes, UTC time and Unicode
+ok 15 - CSV contains all requirements, raw bytes, UTC time and Unicode
+  ---
+  duration_ms: 1.1297
+  type: 'test'
+  ...
+# Subtest: embedded sample bytes equal the downloadable sample files
+ok 16 - embedded sample bytes equal the downloadable sample files
+  ---
+  duration_ms: 26.105
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 160.631

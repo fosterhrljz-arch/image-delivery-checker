@@ -1,0 +1,7 @@
+﻿"Filename","Width (px)","Height (px)","Detected format","File size (bytes)","File size (MB)","Status","Reasons","Specification","Dimension rule","Required width (px)","Required height (px)","Allowed formats","Maximum size (bytes)","Maximum size (MB)","Report time (UTC)"
+"social-square.jpg","1080","1080","JPG","35793","0.035793","PASS","","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"
+"studio-square.png","1080","1080","PNG","8370","0.008370","PASS","","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"
+"small-square.jpg","800","800","JPG","17770","0.017770","FAIL","Expected exactly 1080 × 1080 px; found 800 × 800 px.","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"
+"website-banner.webp","1920","640","WebP","9818","0.009818","FAIL","WebP is not allowed. Accepted: JPG, PNG. | Expected exactly 1080 × 1080 px; found 1920 × 640 px.","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"
+"texture-large.png","1080","1080","PNG","3504560","3.504560","FAIL","File too large: 3,504,560 bytes exceeds 2 MB (2,000,000 bytes).","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"
+"product-detail.jpg","1600","1600","JPG","60367","0.060367","FAIL","Expected exactly 1080 × 1080 px; found 1600 × 1600 px.","Square social post","Exactly","1080","1080","JPG; PNG","2000000","2","2026-11-06T10:03:46.583Z"

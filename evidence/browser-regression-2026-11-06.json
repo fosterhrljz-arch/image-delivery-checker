@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-06",
+  "browser": "Chrome 156.0.8078.80",
+  "url": "file:///C:/Users/TTK/Documents/ChatGPT/Session/image-delivery-checker/index.html",
+  "offline": true,
+  "viewports": [
+    320,
+    390,
+    768,
+    1024,
+    1536
+  ],
+  "tests": [
+    {
+      "name": "direct file://, offline page identity and empty state",
+      "status": "PASS"
+    },
+    {
+      "name": "real embedded samples: 2 passes, 4 failures, six decoded thumbnails",
+      "status": "PASS"
+    },
+    {
+      "name": "filter works; actual CSV still exports all six files",
+      "status": "PASS"
+    },
+    {
+      "name": "all three examples recheck the same real images",
+      "status": "PASS"
+    },
+    {
+      "name": "editable formats and file size recheck immediately",
+      "status": "PASS"
+    },
+    {
+      "name": "custom specification and per-preset draft retention",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid specification pauses results and export; recovery rechecks",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid files: plain text, zero byte, broken JPG/PNG/WebP, GIF",
+      "status": "PASS"
+    },
+    {
+      "name": "a disguised extension is checked by its actual PNG bytes",
+      "status": "PASS"
+    },
+    {
+      "name": "real file inclusive size boundary and one-byte-over rejection",
+      "status": "PASS"
+    },
+    {
+      "name": "minimum size boundary compares both axes",
+      "status": "PASS"
+    },
+    {
+      "name": "exact dimensions reject a one-pixel difference",
+      "status": "PASS"
+    },
+    {
+      "name": "EXIF rotation uses displayed pixel dimensions",
+      "status": "PASS"
+    },
+    {
+      "name": "50 MB processing guard reports a failure",
+      "status": "PASS"
+    },
+    {
+      "name": "real drag-and-drop File/DataTransfer path",
+      "status": "PASS"
+    },
+    {
+      "name": "drop outside zone prevents file navigation",
+      "status": "PASS"
+    },
+    {
+      "name": "batch of 30 real files all decode and pass",
+      "status": "PASS"
+    },
+    {
+      "name": "remove, reselect same file, clear during decoding",
+      "status": "PASS"
+    },
+    {
+      "name": "200-file batch cap gives an explicit notice without false passes",
+      "status": "PASS"
+    },
+    {
+      "name": "hostile filenames render as text and CSV escapes Unicode/quotes/newlines/formulas",
+      "status": "PASS"
+    },
+    {
+      "name": "keyboard browse button opens file picker",
+      "status": "PASS"
+    },
+    {
+      "name": "refresh clears images and session-only specification edits",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive layout at 320, 390, 768, 1024 and 1536 pixels",
+      "status": "PASS"
+    },
+    {
+      "name": "no page errors, console warnings or external HTTP requests",
+      "status": "PASS"
+    }
+  ],
+  "console": [],
+  "httpRequests": []
+}
